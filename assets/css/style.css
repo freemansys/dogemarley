@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #16df7e;
+  background: #569c40;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px 0;
 }
 #header .logo {
-  font-size: 32px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -127,17 +127,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #16df7e;
+  color: #569c40;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 10px 25px;
   margin-left: 30px;
   border-radius: 4px;
   line-height: 1;
-  color: #5f687b;
+  color: #fff;
+  background-color: #569c40   ;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #cdd1d9;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   background: #206bfb;
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #16df7e;
+  color: #569c40;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #5f687b;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #16df7e;
+  color: #569c40;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #16df7e;
+  color: #569c40;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -322,12 +322,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #16df7e;
-  box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
+  background: #569c40;
 }
 #hero .btn-get-started:hover {
   background: #206bfb;
-  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -346,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 8px;
 }
 #hero .btn-watch-video:hover i {
-  color: #16df7e;
+  color: #569c40;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -479,7 +477,7 @@ section {
   margin: 0 0 15px 0;
 }
 .featured-services .icon i {
-  color: #16df7e;
+  color: #569c40;
   font-size: 36px;
 }
 .featured-services .title {
@@ -495,7 +493,7 @@ section {
   border-color: #eaecef;
 }
 .featured-services .icon-box:hover .title a {
-  color: #16df7e;
+  color: #569c40;
 }
 .featured-services .description {
   line-height: 24px;
@@ -520,7 +518,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #16df7e;
+  color: #569c40;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -535,7 +533,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #16df7e;
+  color: #569c40;
   font-weight: 700;
 }
 .counts .counters p {
@@ -565,7 +563,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 .services .icon-box .icon i {
-  color: #16df7e;
+  color: #569c40;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -587,7 +585,7 @@ section {
   border-color: #eaecef;
 }
 .services .icon-box:hover h4 a {
-  color: #16df7e;
+  color: #569c40;
 }
 
 /*--------------------------------------------------------------
@@ -612,7 +610,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #16df7e;
+  color: #569c40;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -651,7 +649,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #16df7e;
+  color: #569c40;
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
@@ -679,10 +677,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #16df7e;
+  border: 1px solid #569c40;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #16df7e;
+  background-color: #569c40;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -778,17 +776,17 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #16df7e;
+  border: 1px solid #569c40;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #16df7e;
+  background-color: #569c40;
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #16df7e;
+  background: #569c40;
   background-size: cover;
   padding: 60px 0;
 }
@@ -856,7 +854,7 @@ section {
   transition: 0.3s;
 }
 .team .member .social a:hover {
-  color: #16df7e;
+  color: #569c40;
 }
 .team .member .social i {
   font-size: 18px;
@@ -867,15 +865,15 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
+  border-top: 3px solid #569c40;
+  border-bottom: 3px solid #569c40;
   padding: 30px;
   width: 100%;
   background-color: #f9f9fa;
 }
 .contact .info i {
   font-size: 20px;
-  color: #16df7e;
+  color: #569c40;
   float: left;
   width: 44px;
   height: 44px;
@@ -917,17 +915,17 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #16df7e;
+  background: #569c40;
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #16df7e;
+  background: #569c40;
   color: #fff;
 }
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
+  border-top: 3px solid #569c40;
+  border-bottom: 3px solid #569c40;
   padding: 30px;
   background-color: #f9f9fa;
 }
@@ -978,7 +976,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #16df7e;
+  border-color: #569c40;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -987,7 +985,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #16df7e;
+  background: #569c40;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1115,7 +1113,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #16df7e;
+  background: #569c40;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1142,7 +1140,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #16df7e;
+  background: #569c40;
   color: #fff;
   text-decoration: none;
 }
