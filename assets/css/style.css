@@ -792,7 +792,7 @@ section {
 .cta {
   background: #569c40;
   background-size: cover;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 .cta h3 {
   color: #fff;
@@ -801,6 +801,12 @@ section {
 }
 .cta p {
   color: #fff;
+}
+.cta a {
+  color: #fff;
+}
+.cta a:hover {
+  text-decoration: underline;
 }
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
